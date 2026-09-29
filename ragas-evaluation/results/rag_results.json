@@ -1,0 +1,94 @@
+[
+  {
+    "question": "What hardware concern is mentioned in ticket 3638?",
+    "ground_truth": "Ticket 3638 says the product may have a hardware issue.",
+    "answer": "The customer in ticket 3638 suspects there might be a hardware issue because their Dyson Vacuum Cleaner is making strange noises and not functioning properly.",
+    "contexts": [
+      "Ticket ID: 3638\nProduct: Dyson Vacuum Cleaner\nSubject: Delivery problem\nStatus: Open\nTicket Type: Technical issue\nPriority: Critical\nChannel: Social media\nTicket details:\nTicket ID: 3638\nProduct: Dyson Vacuum Cleaner\nTicket Type: Technical issue\nSubject: Delivery problem",
+      "Ticket ID: 3638\nProduct: Dyson Vacuum Cleaner\nSubject: Delivery problem\nStatus: Open\nTicket Type: Technical issue\nPriority: Critical\nChannel: Social media\nTicket details:\nSubject: Delivery problem\nDescription: My Dyson Vacuum Cleaner is making strange noises and not functioning properly. I suspect there might be a hardware issue. Can you please help me with this? Thank. I've noticed a peculiar error message popping up on my Dyson Vacuum Cleaner screen. It says '{error_message}'. What does it mean?\nStatus: Open\nResolution: \nPriority: Critical\nChannel: Social media"
+    ]
+  },
+  {
+    "question": "What did ticket 8127 report after following manual troubleshooting steps?",
+    "ground_truth": "Ticket 8127 says the issue persisted after following troubleshooting steps in the user manual.",
+    "answer": "Ticket 8127 reported that the issue persists after following the troubleshooting steps mentioned in the user manual.",
+    "contexts": [
+      "Ticket ID: 8127\nProduct: Samsung Galaxy\nSubject: Delivery problem\nStatus: Open\nTicket Type: Billing inquiry\nPriority: Medium\nChannel: Chat\nTicket details:\nTicket ID: 8127\nProduct: Samsung Galaxy\nTicket Type: Billing inquiry\nSubject: Delivery problem\nDescription: I'm having an issue with the Samsung Galaxy. Please assist. Samsung Galaxy, or use one of a series of new products from the same source.",
+      "Ticket ID: 8127\nProduct: Samsung Galaxy\nSubject: Delivery problem\nStatus: Open\nTicket Type: Billing inquiry\nPriority: Medium\nChannel: Chat\nTicket details:\nIf you already have any of these products already installed I've followed the troubleshooting steps mentioned in the user manual, but the issue persists.\nStatus: Open\nResolution: \nPriority: Medium\nChannel: Chat"
+    ]
+  },
+  {
+    "question": "What did ticket 7606 report after trying different cables or adapters?",
+    "ground_truth": "Ticket 7606 says the issue persisted after trying different cables, adapters, or peripherals.",
+    "answer": "Ticket 7606 reported that the issue persists after trying different cables, adapters, or peripherals with the PlayStation.",
+    "contexts": [
+      "Ticket ID: 7606\nProduct: PlayStation\nSubject: Refund request\nStatus: Open\nTicket Type: Refund request\nPriority: Critical\nChannel: Chat\nTicket details:\nTicket ID: 7606\nProduct: PlayStation\nTicket Type: Refund request\nSubject: Refund request\nDescription: I've encountered a data loss issue with my PlayStation. All the files and documents seem to have disappeared. Can you guide me on how to retrieve them?",
+      "Ticket ID: 7606\nProduct: PlayStation\nSubject: Refund request\nStatus: Open\nTicket Type: Refund request\nPriority: Critical\nChannel: Chat\nTicket details:\nThat's the best advice you can give me. And I I've tried using different cables, adapters, or peripherals with my PlayStation, but the issue persists.\nStatus: Open\nResolution: \nPriority: Critical\nChannel: Chat"
+    ]
+  },
+  {
+    "question": "What is the status of ticket 3638?",
+    "ground_truth": "Ticket 3638 has status Open.",
+    "answer": "The status of ticket 3638 is Open.",
+    "contexts": [
+      "Ticket ID: 3638\nProduct: Dyson Vacuum Cleaner\nSubject: Delivery problem\nStatus: Open\nTicket Type: Technical issue\nPriority: Critical\nChannel: Social media\nTicket details:\nTicket ID: 3638\nProduct: Dyson Vacuum Cleaner\nTicket Type: Technical issue\nSubject: Delivery problem",
+      "Ticket ID: 3638\nProduct: Dyson Vacuum Cleaner\nSubject: Delivery problem\nStatus: Open\nTicket Type: Technical issue\nPriority: Critical\nChannel: Social media\nTicket details:\nSubject: Delivery problem\nDescription: My Dyson Vacuum Cleaner is making strange noises and not functioning properly. I suspect there might be a hardware issue. Can you please help me with this? Thank. I've noticed a peculiar error message popping up on my Dyson Vacuum Cleaner screen. It says '{error_message}'. What does it mean?\nStatus: Open\nResolution: \nPriority: Critical\nChannel: Social media"
+    ]
+  },
+  {
+    "question": "What is the priority of ticket 1?",
+    "ground_truth": "Ticket 1 has Critical priority.",
+    "answer": "The priority of ticket 1 is Critical.",
+    "contexts": [
+      "Ticket ID: 1\nProduct: GoPro Hero\nSubject: Product setup\nStatus: Pending Customer Response\nTicket Type: Technical issue\nPriority: Critical\nChannel: Social media\nTicket details:\nTicket ID: 1\nProduct: GoPro Hero\nTicket Type: Technical issue\nSubject: Product setup\nDescription: I'm having an issue with the GoPro Hero. Please assist.\n\nYour billing zip code is: 71701.\n\nWe appreciate that you have requested a website address.",
+      "Ticket ID: 1\nProduct: GoPro Hero\nSubject: Product setup\nStatus: Pending Customer Response\nTicket Type: Technical issue\nPriority: Critical\nChannel: Social media\nTicket details:\nPlease double check your email address. I've tried troubleshooting steps mentioned in the user manual, but the issue persists.\nStatus: Pending Customer Response\nResolution: \nPriority: Critical\nChannel: Social media"
+    ]
+  },
+  {
+    "question": "What channel was used for ticket 7521?",
+    "ground_truth": "Ticket 7521 was submitted through Chat.",
+    "answer": "Ticket 7521 was handled through the Chat channel.",
+    "contexts": [
+      "Ticket ID: 7521\nProduct: Asus ROG\nSubject: Product setup\nStatus: Closed\nTicket Type: Technical issue\nPriority: Low\nChannel: Chat\nTicket details:\nTicket ID: 7521\nProduct: Asus ROG\nTicket Type: Technical issue\nSubject: Product setup",
+      "Ticket ID: 7521\nProduct: Asus ROG\nSubject: Product setup\nStatus: Closed\nTicket Type: Technical issue\nPriority: Low\nChannel: Chat\nTicket details:\nStatus: Closed\nResolution: Stop attack indicate reduce involve put.\nPriority: Low\nChannel: Chat",
+      "Ticket ID: 7521\nProduct: Asus ROG\nSubject: Product setup\nStatus: Closed\nTicket Type: Technical issue\nPriority: Low\nChannel: Chat\nTicket details:\nSubject: Product setup\nDescription: My Asus ROG is making strange noises and not functioning properly. I suspect there might be a hardware issue. Can you please help me with this? I have a good feeling about what that means or how to fix it... it I've noticed a peculiar error message popping up on my Asus ROG screen. It says '{error_message}'. What does it mean?\nStatus: Closed"
+    ]
+  },
+  {
+    "question": "What type of issue is ticket 3755?",
+    "ground_truth": "Ticket 3755 is a Technical issue.",
+    "answer": "Ticket 3755 is a Technical issue.",
+    "contexts": [
+      "Ticket ID: 3755\nProduct: Dell XPS\nSubject: Product setup\nStatus: Pending Customer Response\nTicket Type: Technical issue\nPriority: Low\nChannel: Social media\nTicket details:\nTicket ID: 3755\nProduct: Dell XPS\nTicket Type: Technical issue\nSubject: Product setup",
+      "Ticket ID: 3755\nProduct: Dell XPS\nSubject: Product setup\nStatus: Pending Customer Response\nTicket Type: Technical issue\nPriority: Low\nChannel: Social media\nTicket details:\nSubject: Product setup\nDescription: I'm having an issue with the Dell XPS. Please assist. All requests for this product must be made to my account for a delivery confirmation within 24 hours of each request received - as long as it is sent to me within 30 I need assistance as soon as possible because it's affecting my work and productivity.\nStatus: Pending Customer Response\nResolution:",
+      "Ticket ID: 3755\nProduct: Dell XPS\nSubject: Product setup\nStatus: Pending Customer Response\nTicket Type: Technical issue\nPriority: Low\nChannel: Social media\nTicket details:\nStatus: Pending Customer Response\nResolution: \nPriority: Low\nChannel: Social media"
+    ]
+  },
+  {
+    "question": "What product is associated with ticket 1?",
+    "ground_truth": "Ticket 1 is associated with the GoPro Hero product.",
+    "answer": "The product associated with ticket 1 is the GoPro Hero.",
+    "contexts": [
+      "Ticket ID: 1\nProduct: GoPro Hero\nSubject: Product setup\nStatus: Pending Customer Response\nTicket Type: Technical issue\nPriority: Critical\nChannel: Social media\nTicket details:\nTicket ID: 1\nProduct: GoPro Hero\nTicket Type: Technical issue\nSubject: Product setup\nDescription: I'm having an issue with the GoPro Hero. Please assist.\n\nYour billing zip code is: 71701.\n\nWe appreciate that you have requested a website address.",
+      "Ticket ID: 1\nProduct: GoPro Hero\nSubject: Product setup\nStatus: Pending Customer Response\nTicket Type: Technical issue\nPriority: Critical\nChannel: Social media\nTicket details:\nPlease double check your email address. I've tried troubleshooting steps mentioned in the user manual, but the issue persists.\nStatus: Pending Customer Response\nResolution: \nPriority: Critical\nChannel: Social media"
+    ]
+  },
+  {
+    "question": "What does ticket 563 mention about possible repair or replacement?",
+    "ground_truth": "Ticket 563 says the user is worried that the hardware-related issue might require repair or replacement.",
+    "answer": "Ticket 563 mentions that the customer is worried the issue might be hardware-related and might require repair or replacement.",
+    "contexts": [
+      "Ticket ID: 563\nProduct: Samsung Galaxy\nSubject: Delivery problem\nStatus: Pending Customer Response\nTicket Type: Technical issue\nPriority: Medium\nChannel: Social media\nTicket details:\nTicket ID: 563\nProduct: Samsung Galaxy\nTicket Type: Technical issue\nSubject: Delivery problem\nDescription: I've noticed a software bug in the Samsung Galaxy app. It's causing data loss and unexpected errors. How can I resolve this issue?",
+      "Ticket ID: 563\nProduct: Samsung Galaxy\nSubject: Delivery problem\nStatus: Pending Customer Response\nTicket Type: Technical issue\nPriority: Medium\nChannel: Social media\nTicket details:\nThe solution involves searching for the product on a specific site, but it often I'm worried that the issue might be hardware-related and might require repair or replacement.\nStatus: Pending Customer Response\nResolution: \nPriority: Medium\nChannel: Social media"
+    ]
+  },
+  {
+    "question": "What hardware concern is mentioned in ticket 4471?",
+    "ground_truth": "Ticket 4471 says the user suspects a hardware issue with the Roomba Robot Vacuum.",
+    "answer": "The hardware concern mentioned in ticket 4471 is that the Roomba Robot Vacuum is making strange noises and not functioning properly.",
+    "contexts": [
+      "Ticket ID: 4471\nProduct: Roomba Robot Vacuum\nSubject: Hardware issue\nStatus: Pending Customer Response\nTicket Type: Technical issue\nPriority: High\nChannel: Email\nTicket details:\nTicket ID: 4471\nProduct: Roomba Robot Vacuum\nTicket Type: Technical issue\nSubject: Hardware issue\nDescription: My Roomba Robot Vacuum is making strange noises and not functioning properly. I suspect there might be a hardware issue. Can you please help me with this? Thanks,",
+      "Ticket ID: 4471\nProduct: Roomba Robot Vacuum\nSubject: Hardware issue\nStatus: Pending Customer Response\nTicket Type: Technical issue\nPriority: High\nChannel: Email\nTicket details:\nYuki Yoshimura - A Friend of The Game I'm concerned about the security of my Roomba Robot Vacuum and would like to ensure that my data is safe.\nStatus: Pending Customer Response\nResolution: \nPriority: High\nChannel: Email"
+    ]
+  }
+]

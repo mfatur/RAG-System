@@ -1,0 +1,12 @@
+pandas
+langchain-text-splitters
+sentence-transformers
+langchain-huggingface
+chromadb 
+langchain-chroma
+sentence-transformers
+langchain-groq
+python-dotenv
+ragas==0.4.3
+langchain-community==0.3.29
+matplotlib
