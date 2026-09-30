@@ -90,5 +90,52 @@
       "Ticket ID: 4471\nProduct: Roomba Robot Vacuum\nSubject: Hardware issue\nStatus: Pending Customer Response\nTicket Type: Technical issue\nPriority: High\nChannel: Email\nTicket details:\nTicket ID: 4471\nProduct: Roomba Robot Vacuum\nTicket Type: Technical issue\nSubject: Hardware issue\nDescription: My Roomba Robot Vacuum is making strange noises and not functioning properly. I suspect there might be a hardware issue. Can you please help me with this? Thanks,",
       "Ticket ID: 4471\nProduct: Roomba Robot Vacuum\nSubject: Hardware issue\nStatus: Pending Customer Response\nTicket Type: Technical issue\nPriority: High\nChannel: Email\nTicket details:\nYuki Yoshimura - A Friend of The Game I'm concerned about the security of my Roomba Robot Vacuum and would like to ensure that my data is safe.\nStatus: Pending Customer Response\nResolution: \nPriority: High\nChannel: Email"
     ]
+  },
+  {
+    "question": "What are the common symptoms reported in ticket 3638 and ticket 4471?",
+    "ground_truth": "Both tickets report that the devices are making strange noises and not functioning properly, leading the users to suspect a hardware issue.",
+    "answer": "I don't have enough information to answer that.",
+    "contexts": [
+      "Ticket ID: 3638\nProduct: Dyson Vacuum Cleaner\nSubject: Delivery problem\nStatus: Open\nTicket Type: Technical issue\nPriority: Critical\nChannel: Social media\nTicket details:\nTicket ID: 3638\nProduct: Dyson Vacuum Cleaner\nTicket Type: Technical issue\nSubject: Delivery problem",
+      "Ticket ID: 3638\nProduct: Dyson Vacuum Cleaner\nSubject: Delivery problem\nStatus: Open\nTicket Type: Technical issue\nPriority: Critical\nChannel: Social media\nTicket details:\nSubject: Delivery problem\nDescription: My Dyson Vacuum Cleaner is making strange noises and not functioning properly. I suspect there might be a hardware issue. Can you please help me with this? Thank. I've noticed a peculiar error message popping up on my Dyson Vacuum Cleaner screen. It says '{error_message}'. What does it mean?\nStatus: Open\nResolution: \nPriority: Critical\nChannel: Social media"
+    ]
+  },
+  {
+    "question": "Which tickets report that the issue persists even after the user followed the manual?",
+    "ground_truth": "Ticket 8127 (Samsung Galaxy) and Ticket 1 (GoPro Hero) both mention that the issue persists after following the troubleshooting steps in the user manual.",
+    "answer": "I don't have enough information to answer that.",
+    "contexts": [
+      "Ticket ID: 5640\nProduct: Asus ROG\nSubject: Display issue\nStatus: Open\nTicket Type: Technical issue\nPriority: Medium\nChannel: Email\nTicket details:\nTicket ID: 5640\nProduct: Asus ROG\nTicket Type: Technical issue\nSubject: Display issue\nDescription: I'm having an issue with the Asus ROG. Please assist.",
+      "Ticket ID: 2361\nProduct: Asus ROG\nSubject: Software bug\nStatus: Closed\nTicket Type: Technical issue\nPriority: Medium\nChannel: Phone\nTicket details:\nTicket ID: 2361\nProduct: Asus ROG\nTicket Type: Technical issue\nSubject: Software bug\nDescription: I'm having an issue with the Asus ROG. Please assist. Thanks.\"",
+      "Ticket ID: 8083\nProduct: MacBook Pro\nSubject: Software bug\nStatus: Closed\nTicket Type: Refund request\nPriority: Critical\nChannel: Phone\nTicket details:\nTicket ID: 8083\nProduct: MacBook Pro\nTicket Type: Refund request\nSubject: Software bug\nDescription: There seems to be a glitch in the MacBook Pro software. It freezes frequently, making it difficult to use. Can you please provide a solution? Thank you!"
+    ]
+  },
+  {
+    "question": "What is the warranty period for the Dyson Vacuum Cleaner mentioned in ticket 3638?",
+    "ground_truth": "Sorry, the warranty period is not mentioned in the ticket documents.",
+    "answer": "I don't have enough information to answer that.",
+    "contexts": [
+      "Ticket ID: 3638\nProduct: Dyson Vacuum Cleaner\nSubject: Delivery problem\nStatus: Open\nTicket Type: Technical issue\nPriority: Critical\nChannel: Social media\nTicket details:\nTicket ID: 3638\nProduct: Dyson Vacuum Cleaner\nTicket Type: Technical issue\nSubject: Delivery problem",
+      "Ticket ID: 3638\nProduct: Dyson Vacuum Cleaner\nSubject: Delivery problem\nStatus: Open\nTicket Type: Technical issue\nPriority: Critical\nChannel: Social media\nTicket details:\nSubject: Delivery problem\nDescription: My Dyson Vacuum Cleaner is making strange noises and not functioning properly. I suspect there might be a hardware issue. Can you please help me with this? Thank. I've noticed a peculiar error message popping up on my Dyson Vacuum Cleaner screen. It says '{error_message}'. What does it mean?\nStatus: Open\nResolution: \nPriority: Critical\nChannel: Social media"
+    ]
+  },
+  {
+    "question": "What is the name of the customer service agent handling ticket 7521 for the Asus ROG?",
+    "ground_truth": "The document does not mention the name of the customer service agent handling the ticket.",
+    "answer": "I don't have enough information to answer that.",
+    "contexts": [
+      "Ticket ID: 7521\nProduct: Asus ROG\nSubject: Product setup\nStatus: Closed\nTicket Type: Technical issue\nPriority: Low\nChannel: Chat\nTicket details:\nTicket ID: 7521\nProduct: Asus ROG\nTicket Type: Technical issue\nSubject: Product setup",
+      "Ticket ID: 7521\nProduct: Asus ROG\nSubject: Product setup\nStatus: Closed\nTicket Type: Technical issue\nPriority: Low\nChannel: Chat\nTicket details:\nSubject: Product setup\nDescription: My Asus ROG is making strange noises and not functioning properly. I suspect there might be a hardware issue. Can you please help me with this? I have a good feeling about what that means or how to fix it... it I've noticed a peculiar error message popping up on my Asus ROG screen. It says '{error_message}'. What does it mean?\nStatus: Closed",
+      "Ticket ID: 7521\nProduct: Asus ROG\nSubject: Product setup\nStatus: Closed\nTicket Type: Technical issue\nPriority: Low\nChannel: Chat\nTicket details:\nStatus: Closed\nResolution: Stop attack indicate reduce involve put.\nPriority: Low\nChannel: Chat"
+    ]
+  },
+  {
+    "question": "How do you perform a hard reset on the PlayStation in ticket 7606?",
+    "ground_truth": "The document does not provide instructions on how to perform a hard reset; it only mentions that the user experienced data loss.",
+    "answer": "I don't have enough information to answer that.",
+    "contexts": [
+      "Ticket ID: 7606\nProduct: PlayStation\nSubject: Refund request\nStatus: Open\nTicket Type: Refund request\nPriority: Critical\nChannel: Chat\nTicket details:\nTicket ID: 7606\nProduct: PlayStation\nTicket Type: Refund request\nSubject: Refund request\nDescription: I've encountered a data loss issue with my PlayStation. All the files and documents seem to have disappeared. Can you guide me on how to retrieve them?",
+      "Ticket ID: 7606\nProduct: PlayStation\nSubject: Refund request\nStatus: Open\nTicket Type: Refund request\nPriority: Critical\nChannel: Chat\nTicket details:\nThat's the best advice you can give me. And I I've tried using different cables, adapters, or peripherals with my PlayStation, but the issue persists.\nStatus: Open\nResolution: \nPriority: Critical\nChannel: Chat"
+    ]
   }
 ]

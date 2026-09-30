@@ -33,7 +33,7 @@ with open(dataset_path, "r", encoding="utf-8") as file:
         question = row["question"]
         ground_truth = row["ground_truth"]
 
-        print(f"\nProcessing {i}/10...")
+        print(f"\nProcessing {i}/15...")
         print(f"Question: {question}")
 
         rag_result = run_rag(question)

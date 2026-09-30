@@ -9,3 +9,8 @@ question,ground_truth
 "What product is associated with ticket 1?","Ticket 1 is associated with the GoPro Hero product."
 "What does ticket 563 mention about possible repair or replacement?","Ticket 563 says the user is worried that the hardware-related issue might require repair or replacement."
 "What hardware concern is mentioned in ticket 4471?","Ticket 4471 says the user suspects a hardware issue with the Roomba Robot Vacuum."
+"What are the common symptoms reported in ticket 3638 and ticket 4471?","Both tickets report that the devices are making strange noises and not functioning properly, leading the users to suspect a hardware issue."
+"Which tickets report that the issue persists even after the user followed the manual?","Ticket 8127 (Samsung Galaxy) and Ticket 1 (GoPro Hero) both mention that the issue persists after following the troubleshooting steps in the user manual."
+"What is the warranty period for the Dyson Vacuum Cleaner mentioned in ticket 3638?","Sorry, the warranty period is not mentioned in the ticket documents."
+"What is the name of the customer service agent handling ticket 7521 for the Asus ROG?","The document does not mention the name of the customer service agent handling the ticket."
+"How do you perform a hard reset on the PlayStation in ticket 7606?","The document does not provide instructions on how to perform a hard reset; it only mentions that the user experienced data loss."

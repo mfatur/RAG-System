@@ -28,7 +28,7 @@ with RESULTS_FILE.open("r", encoding="utf-8") as file:
 dataset = Dataset.from_list(rows)
 
 llm = ChatGroq(
-    model="qwen/qwen3.8-27b",
+    model="openai/gpt-oss-120b",
     temperature=0,
     max_tokens=2048,
 )
