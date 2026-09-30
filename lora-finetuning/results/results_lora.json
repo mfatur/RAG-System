@@ -1,0 +1,39 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "test": {
+    "base": {
+      "lookup_n": 400,
+      "oos_n": 52,
+      "lookup_value_match": 0.47,
+      "lookup_exact_match": 0.165,
+      "false_refusal_rate": 0.01,
+      "oos_refusal_rate": 0.096
+    },
+    "lora": {
+      "lookup_n": 400,
+      "oos_n": 52,
+      "lookup_value_match": 1.0,
+      "lookup_exact_match": 1.0,
+      "false_refusal_rate": 0.0,
+      "oos_refusal_rate": 1.0
+    }
+  },
+  "paraphrase": {
+    "base": {
+      "lookup_n": 50,
+      "oos_n": 50,
+      "lookup_value_match": 0.5,
+      "lookup_exact_match": 0.0,
+      "false_refusal_rate": 0.02,
+      "oos_refusal_rate": 0.12
+    },
+    "lora": {
+      "lookup_n": 50,
+      "oos_n": 50,
+      "lookup_value_match": 0.96,
+      "lookup_exact_match": 0.0,
+      "false_refusal_rate": 0.0,
+      "oos_refusal_rate": 1.0
+    }
+  }
+}

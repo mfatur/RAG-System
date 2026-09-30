@@ -46,6 +46,26 @@ Query ─┬─ mentions a ticket ID? ── yes → Metadata filter (ticket_id)
 
 Out-of-scope questions: 3/3 correctly declined with "I don't have enough information to answer that."
 
+## LoRA Fine-tuning (small generator for the RAG system)
+
+Fine-tuned `Qwen/Qwen2.5-0.5B-Instruct` with LoRA (r=16) using plain Hugging Face Transformers + PEFT (no LangChain) to act as the answer generator: answer ticket-lookup questions from the retrieved context in one sentence, and decline when the information is not there.
+
+- Model: https://huggingface.co/mfatur/qwen2.5-0.5b-ticket-rag-lora
+- Notebook: [`lora-finetuning/lora_rag_generator.ipynb`](lora-finetuning/lora_rag_generator.ipynb) (run on a free Colab GPU)
+- Dataset builder: [`lora-finetuning/build_sft_dataset.py`](lora-finetuning/build_sft_dataset.py)
+
+| Metric | Base | LoRA |
+|---|---|---|
+| Lookup value match (template test, n=400) | 0.47 | 1.00 |
+| Out-of-scope refusal (template test, n=52) | 0.10 | 1.00 |
+| Lookup value match (paraphrased, n=50) | 0.50 | 0.96 |
+| Out-of-scope refusal (paraphrased, n=50) | 0.12 | 1.00 |
+
+**Limitations**
+- Training questions are generated from templates and target metadata fields in the ticket header, which is an easy task. The base model's lower scores partly reflect answer style and a 48-token output cap.
+- Out-of-scope behavior was tested on only 5 unseen question types.
+- Not yet tested: questions about free-text ticket descriptions, and end-to-end use in the RAG pipeline with real retrieved chunks.
+
 ### Findings
 
 - Single-ticket lookups work well because of metadata filtering.
