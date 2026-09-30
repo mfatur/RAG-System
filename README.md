@@ -102,13 +102,23 @@ RAG-llm/
 │   │   ├── evaluate_ragas.py
 │   │   └── plot_ragas_result.py
 │   └── results/               # scores, raw outputs, chart
+├── lora-finetuning/
+│   ├── build_sft_dataset.py   # build train/test instruction data from tickets
+│   ├── lora_rag_generator.ipynb  # LoRA training + evaluation (run on a Colab GPU)
+│   ├── data/                  # train.jsonl, test.jsonl
+│   └── results/               # results_lora.json, predictions.jsonl
 └── requirements.txt
 ```
 
 ## Dataset
 
-[Customer Support Ticket Dataset](https://www.kaggle.com/datasets/suraj520/customer-support-ticket-dataset/data) from Kaggle. This is a **synthetic** dataset (ticket descriptions contain unrelated filler sentences), so results may not transfer directly to real-world support data.
+[Customer Support Ticket Dataset](https://www.kaggle.com/datasets/suraj520/customer-support-ticket-dataset/data) from Kaggle. This is a **synthetic** dataset, so results may not transfer directly to real-world support data.
+
+Things found while working with it:
+- Ticket descriptions contain unrelated filler text (random sentences, code fragments).
+- Metadata such as ticket type and subject is often inconsistent with the description (e.g. a hardware complaint labeled "Cancellation request"), so it is not reliable ground truth for classification.
+- The `Resolution` column is random text, so it was not used as a training target.
 
 ## Tech Stack
 
-Python · LangChain · ChromaDB · Hugging Face (Sentence Transformers) · Groq · RAGAS · pandas
+Python · LangChain · ChromaDB · Hugging Face (Sentence Transformers, Transformers, PEFT) · LoRA · Groq · RAGAS · pandas · Google Colab
